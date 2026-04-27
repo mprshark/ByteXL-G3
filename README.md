@@ -1,64 +1,95 @@
-# ByteXL — Group 3 · ML Projects
+<div align="center">
 
-> *Turning raw data into real decisions.*
+# 🌾 ❤️ 🔥
+# ByteXL · Group 3
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat)
+### *Turning raw data into real decisions*
+#### ML-powered apps for agriculture, healthcare & fitness
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logo=xgboost&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+| 🚀 Live Apps | 👥 Team Size | 🎯 Best Accuracy | 💻 Language |
+|:---:|:---:|:---:|:---:|
+| 3 | 9 | ~99% (Crop) | 100% Python |
+
+</div>
 
 ---
 
 ## 🌾 Crop Recommendation System
 
-Recommends the optimal crop based on soil nutrients (N, P, K), temperature, humidity, pH level, and rainfall data.
+> Recommends the optimal crop to grow based on soil and climate features.
 
-| Detail | Info |
-|--------|------|
-| Model | Random Forest Classifier |
-| Accuracy | ~99% |
-| Dataset | Kaggle Crop Recommendation |
-| Live App | [crop-predictor-bytexl.streamlit.app](https://crop-predictor-bytexl.streamlit.app/) |
+**Input features:** Nitrogen (N) · Phosphorus (P) · Potassium (K) · Temperature · Humidity · pH · Rainfall
+
+| 🔧 Model | 🎯 Accuracy | 📦 Dataset | 🌐 Live App |
+|---------|------------|-----------|------------|
+| Random Forest Classifier | ~99% | [Kaggle Crop Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset) | [🚀 Open App](https://crop-predictor-bytexl.streamlit.app/) |
 
 ---
 
 ## ❤️ Heart Disease Prediction
 
-Predicts cardiovascular risk using clinical indicators — age, cholesterol, resting BP, chest pain type, and ECG results.
+> Predicts cardiovascular risk using clinical markers and patient vitals.
 
-| Detail | Info |
-|--------|------|
-| Model | Logistic Regression / SVM |
-| Dataset | Cleveland Heart Disease Dataset |
-| Live App | [heartdiseaseprediction-webapp.streamlit.app](https://heartdiseaseprediction-webapp.streamlit.app/) |
+**Input features:** Age · Sex · Chest Pain Type · Resting BP · Cholesterol · Fasting Blood Sugar · ECG · Max Heart Rate
+
+| 🔧 Model | 📦 Dataset | 🌐 Live App |
+|---------|-----------|------------|
+| Logistic Regression / SVM | [Cleveland Heart Disease](https://archive.ics.uci.edu/dataset/45/heart+disease) | [🚀 Open App](https://heartdiseaseprediction-webapp.streamlit.app/) |
 
 ---
 
 ## 🔥 Calories Burnt Prediction
 
-Estimates calories burned during exercise from workout type, duration, heart rate, weight, and age.
+> Estimates calories burned during exercise from biometric and workout data.
 
-| Detail | Info |
-|--------|------|
-| Model | XGBoost Regressor |
-| Dataset | Exercise & Calories (Kaggle) |
-| Live App | Coming Soon |
+**Input features:** Age · Weight · Height · Duration · Heart Rate · Body Temperature
+
+| 🔧 Model | 📦 Dataset | 🌐 Live App |
+|---------|-----------|------------|
+| XGBoost Regressor | [Exercise & Calories (Kaggle)](https://www.kaggle.com/datasets/fmendes/fmendesdat263xdatasets) | ⏳ Coming Soon |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```
-Python  ·  Pandas  ·  NumPy  ·  Scikit-learn  ·  XGBoost
-Streamlit  ·  Matplotlib  ·  Seaborn  ·  Joblib
+Language    →  Python 3.x
+ML          →  Scikit-learn · XGBoost · Pandas · NumPy
+Viz         →  Matplotlib · Seaborn · Plotly
+App         →  Streamlit
+Utils       →  Joblib · Pickle
 ```
 
 ---
 
 ## 👥 Team — ByteXL Group 3
 
-We are a group of ML enthusiasts building end-to-end machine learning applications as part of our academic project at ByteXL.
+> ML enthusiasts building end-to-end machine learning applications at ByteXL.
+
+| # | Name | Role |
+|---|------|------|
+| 1 | 🧑‍💻 Pranshu Pathak | ML Engineer |
+| 2 | 🧑‍💻 Aryan Pankaj Kumar | ML Engineer |
+| 3 | 📊 Swastik Sood | Data Analyst |
+| 4 | 🎨 Aadiya Singh | App Developer |
+| 5 | 🧑‍💻 Shivam Ranga | ML Engineer |
+| 6 | 🎨 Meet Bhatia | App Developer |
+| 7 | 📊 Hardik Behl | Data Analyst |
+
 
 ---
 
-*Built with Python and curiosity.*
+<div align="center">
+
+*⭐ Star this repo if you found it useful*
+
+**Built with Python and curiosity · ByteXL Group 3**
+
+</div>
