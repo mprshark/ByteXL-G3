@@ -1,59 +1,64 @@
-# ByteXL ML Group 🤖
+# ByteXL — Group 3 · ML Projects
 
-> Building intelligent systems — from soil to heartbeats to sweat.
+> *Turning raw data into real decisions.*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat)
 
 ---
 
-## 🚀 Projects
+## 🌾 Crop Recommendation System
 
-### 🌾 Crop Recommendation System
-Recommends the optimal crop to grow based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.
+Recommends the optimal crop based on soil nutrients (N, P, K), temperature, humidity, pH level, and rainfall data.
 
-- **Model**: Random Forest Classifier
-- **Dataset**: Crop Recommendation Dataset (Kaggle)
-- **Live App**: [crop-predictor-bytexl.streamlit.app](https://crop-predictor-bytexl.streamlit.app/)
-
----
-
-### ❤️ Heart Disease Prediction
-Predicts the likelihood of heart disease based on clinical parameters like age, cholesterol, resting BP, and chest pain type.
-
-- **Model**: Logistic Regression / SVM
-- **Dataset**: Cleveland Heart Disease Dataset
-- **Live App**: [heartdiseaseprediction-webapp.streamlit.app](https://heartdiseaseprediction-webapp.streamlit.app/)
+| Detail | Info |
+|--------|------|
+| Model | Random Forest Classifier |
+| Accuracy | ~99% |
+| Dataset | Kaggle Crop Recommendation |
+| Live App | [crop-predictor-bytexl.streamlit.app](https://crop-predictor-bytexl.streamlit.app/) |
 
 ---
 
-### 🔥 Calories Burnt Prediction
-Estimates calories burned during exercise using biometric features like age, weight, heart rate, and workout duration.
+## ❤️ Heart Disease Prediction
 
-- **Model**: XGBoost Regressor
-- **Dataset**: Exercise & Calories Dataset (Kaggle)
-- **Live App**: Coming Soon
+Predicts cardiovascular risk using clinical indicators — age, cholesterol, resting BP, chest pain type, and ECG results.
+
+| Detail | Info |
+|--------|------|
+| Model | Logistic Regression / SVM |
+| Dataset | Cleveland Heart Disease Dataset |
+| Live App | [heartdiseaseprediction-webapp.streamlit.app](https://heartdiseaseprediction-webapp.streamlit.app/) |
+
+---
+
+## 🔥 Calories Burnt Prediction
+
+Estimates calories burned during exercise from workout type, duration, heart rate, weight, and age.
+
+| Detail | Info |
+|--------|------|
+| Model | XGBoost Regressor |
+| Dataset | Exercise & Calories (Kaggle) |
+| Live App | Coming Soon |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```
-Python · Pandas · NumPy · Scikit-learn · XGBoost
-Streamlit · Matplotlib · Seaborn · Joblib
+Python  ·  Pandas  ·  NumPy  ·  Scikit-learn  ·  XGBoost
+Streamlit  ·  Matplotlib  ·  Seaborn  ·  Joblib
 ```
 
 ---
 
-## 👥 Team — ByteXL
+## 👥 Team — ByteXL Group 3
 
-| Role | Contribution |
-|------|-------------|
-| ML Engineers | Model training & evaluation |
-| App Developers | Streamlit frontend |
-| Data Analysts | EDA & feature engineering |
+We are a group of ML enthusiasts building end-to-end machine learning applications as part of our academic project at ByteXL.
 
 ---
 
-*Made with ❤️ by ByteXL Group*
+*Built with Python and curiosity.*
